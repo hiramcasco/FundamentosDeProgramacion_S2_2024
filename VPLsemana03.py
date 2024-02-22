@@ -1,3 +1,34 @@
+#Ejercicio 1: Determinar signo de un número
+"""Escribir un programa que reciba un número y determine si es positivo, negativo o cero."""
+
+"""n = float(input())
+if n == 0: print("El numero ingresado es cero")
+if n > 0: print("El numero ingresado es positivo")
+if n < 0: print("El numero ingresado es negativo")"""
+
+#Ejercicio 2: Cálculo de jornal
+"""Los empleados de una fábrica trabajan en dos turnos: diurno y nocturno. Se desea calcular el jornal diario
+de acuerdo con los siguientes puntos:                   a)La tarifa de las horas diurnas es de 10.000 Gs
+b)La tarifa de las horas nocturnas es de 20.000 Gs      c)Si es un domingo, el jornal aumenta en un 25%."""
+
+"""dia = int(input())
+turno_d = int(input())
+turno_n = int(input())
+
+sueldo = 10000*turno_d +20000*turno_n
+if dia == 7: sueldo = int(sueldo*1.25)
+print(sueldo)"""
+
+#Ejercicio 3: Determinar si un carácter es una letra
+"""Escribir un programa en Python que reciba un caracter e indique en pantalla si corresponde o no
+a una letra (sea minúscula o mayúscula)."""
+
+"""c = input()
+if c.isalpha():
+    if c.isupper(): print("El caracter ingresado es una letra (mayuscula)")
+    else: print("El caracter ingresado es una letra (minuscula)")
+else: print("El caracter ingresado NO corresponde a una letra")"""
+
 #Ejercicio 4: Elemento central de tres números
 """Escribir un programa que lea tres números enteros, y muestre en pantalla el valor central.
 Por ejemplo, si los números ingresados son 4, 1 y 3 (en cualquier orden), debe mostrarse en pantalla el 3.
