@@ -48,3 +48,20 @@
 #     for vocal in "AaEeIiOoUu":
 #         if letter == vocal: npalabra += 1
 # print(f"La palabra ingresada contiene: {npalabra} vocales")
+
+# Ejercicio 4: Es Primo
+# Lea un numero n entero y positivo e imprima en pantalla si es o no un número primo. Si se ingresa un numero
+# no positivo imprimir el mensaje: "El numero no es positivo"
+
+# n = int(input())
+# if n <= 0:
+#     print("El numero no es positivo")
+# else:
+#     primo = "es"
+#     if n==1:
+#         primo = "no es"
+#     for div in range(2,n):
+#         if n%div == 0:
+#             primo = "no es"
+    
+#     print(f"El {n} {primo} un numero primo")
